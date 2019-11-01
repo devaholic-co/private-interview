@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e599c0af14a1c4d8c2ae8cb01533698",
+    "revision": "7261170cdf73c3cfa61b530946273fcf",
     "url": "/ywc-interview/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ywc-interview/static/css/2.65d0fb34.chunk.css"
   },
   {
-    "revision": "88070f5990a141d63ebd",
-    "url": "/ywc-interview/static/css/main.fb54ee0b.chunk.css"
+    "revision": "3e18dbded6d6d5d85b20",
+    "url": "/ywc-interview/static/css/main.185ffda6.chunk.css"
   },
   {
     "revision": "c34b0914bc7542105d5e",
     "url": "/ywc-interview/static/js/2.5c3ef233.chunk.js"
   },
   {
-    "revision": "88070f5990a141d63ebd",
+    "revision": "3e18dbded6d6d5d85b20",
     "url": "/ywc-interview/static/js/main.742bb8ae.chunk.js"
   },
   {
