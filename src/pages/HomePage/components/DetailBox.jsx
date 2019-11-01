@@ -1,44 +1,42 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { Parser } from 'html-to-react';
 import { Row, Col } from 'antd';
 
 const htmlToReactParser = new Parser();
 
-class DetailBox extends PureComponent {
-	render() {
-		return (
-			<div className='box-detail'>
-				<div className='container'>
-					<Row>
-						<Col md={20}>
-							<Row>
-								<Col span={24}>
-									<div className='head-title d-none d-sm-block'>
-										มาตรการส่งเสริมการบริโภค <br/> ในประเทศ <span className='nowrap'>“ชิมช้อปใช้”</span>
-									</div>
-									<div className='head-title d-sm-none'>
-										มาตรการส่งเสริมการบริโภคในประเทศ <span className='nowrap'>“ชิมช้อปใช้”</span>
-									</div>
-								</Col>
-								<Col span={24} className='mt-4'>
-								<div className='detail'>
-									{ htmlToReactParser.parse(this.props.detail) }
+const DetailBox = ({condition, detail}) => {
+	return (
+		<div className='box-detail'>
+			<div className='container'>
+				<Row>
+					<Col md={20}>
+						<Row>
+							<Col span={24}>
+								<div className='head-title d-none d-sm-block'>
+									มาตรการส่งเสริมการบริโภค <br/> ในประเทศ <span className='nowrap'>“ชิมช้อปใช้”</span>
 								</div>
-								</Col>
-								<Col span={24} className='condition mt-4'>
-									<div className='title'>เงื่อนไขการเข้าร่วมมาตรการ</div>
-									<div className='detail ul mt-2'>
-										{ htmlToReactParser.parse(this.props.condition) }
-									</div>
-								</Col>
-							</Row>
-						</Col>
-					</Row>
-				</div> 
+								<div className='head-title d-sm-none'>
+									มาตรการส่งเสริมการบริโภคในประเทศ <span className='nowrap'>“ชิมช้อปใช้”</span>
+								</div>
+							</Col>
+							<Col span={24} className='mt-4'>
+							<div className='detail'>
+								{ htmlToReactParser.parse(detail) }
+							</div>
+							</Col>
+							<Col span={24} className='condition mt-4'>
+								<div className='title'>เงื่อนไขการเข้าร่วมมาตรการ</div>
+								<div className='detail ul mt-2'>
+									{ htmlToReactParser.parse(condition) }
+								</div>
+							</Col>
+						</Row>
+					</Col>
+				</Row>
 			</div> 
-		);
-	}
+		</div> 
+	);
 }
 
 export default DetailBox;

@@ -1,7 +1,8 @@
-import './App.css'
-import './hamburger.css'
+import './App.css';
+import './hamburger.css';
+import './global.scss';
 import React from 'react';
-import HomePage from './pages/HomePage/HomePage'
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   return (
