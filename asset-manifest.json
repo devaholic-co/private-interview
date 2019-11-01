@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ywc-interview/static/css/main.a68d68af.chunk.css",
-    "main.js": "/ywc-interview/static/js/main.e918643a.chunk.js",
-    "main.js.map": "/ywc-interview/static/js/main.e918643a.chunk.js.map",
+    "main.js": "/ywc-interview/static/js/main.0443b476.chunk.js",
+    "main.js.map": "/ywc-interview/static/js/main.0443b476.chunk.js.map",
     "runtime-main.js": "/ywc-interview/static/js/runtime-main.1e809212.js",
     "runtime-main.js.map": "/ywc-interview/static/js/runtime-main.1e809212.js.map",
     "static/css/2.65d0fb34.chunk.css": "/ywc-interview/static/css/2.65d0fb34.chunk.css",
-    "static/js/2.8433cdb9.chunk.js": "/ywc-interview/static/js/2.8433cdb9.chunk.js",
-    "static/js/2.8433cdb9.chunk.js.map": "/ywc-interview/static/js/2.8433cdb9.chunk.js.map",
+    "static/js/2.e16369e5.chunk.js": "/ywc-interview/static/js/2.e16369e5.chunk.js",
+    "static/js/2.e16369e5.chunk.js.map": "/ywc-interview/static/js/2.e16369e5.chunk.js.map",
     "index.html": "/ywc-interview/index.html",
-    "precache-manifest.96e160d5469c700057f7f1057baf7fa9.js": "/ywc-interview/precache-manifest.96e160d5469c700057f7f1057baf7fa9.js",
+    "precache-manifest.6a6b3da946132f8d7b718bd0f13df718.js": "/ywc-interview/precache-manifest.6a6b3da946132f8d7b718bd0f13df718.js",
     "service-worker.js": "/ywc-interview/service-worker.js",
     "static/css/2.65d0fb34.chunk.css.map": "/ywc-interview/static/css/2.65d0fb34.chunk.css.map",
     "static/css/main.a68d68af.chunk.css.map": "/ywc-interview/static/css/main.a68d68af.chunk.css.map",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.1e809212.js",
     "static/css/2.65d0fb34.chunk.css",
-    "static/js/2.8433cdb9.chunk.js",
+    "static/js/2.e16369e5.chunk.js",
     "static/css/main.a68d68af.chunk.css",
-    "static/js/main.e918643a.chunk.js"
+    "static/js/main.0443b476.chunk.js"
   ]
 }

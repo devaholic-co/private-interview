@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecd7cfd008a4702e29c442dda9cedca9",
+    "revision": "b34a760a209caad2c55bc228ac6da77e",
     "url": "/ywc-interview/index.html"
   },
   {
-    "revision": "046a1a66f69f663fe7ce",
+    "revision": "e279741e4a743bfe2a91",
     "url": "/ywc-interview/static/css/2.65d0fb34.chunk.css"
   },
   {
-    "revision": "aabd438393385654d89b",
+    "revision": "f160b4694155e5db96dd",
     "url": "/ywc-interview/static/css/main.a68d68af.chunk.css"
   },
   {
-    "revision": "046a1a66f69f663fe7ce",
-    "url": "/ywc-interview/static/js/2.8433cdb9.chunk.js"
+    "revision": "e279741e4a743bfe2a91",
+    "url": "/ywc-interview/static/js/2.e16369e5.chunk.js"
   },
   {
-    "revision": "aabd438393385654d89b",
-    "url": "/ywc-interview/static/js/main.e918643a.chunk.js"
+    "revision": "f160b4694155e5db96dd",
+    "url": "/ywc-interview/static/js/main.0443b476.chunk.js"
   },
   {
     "revision": "f665b87399459912346a",
