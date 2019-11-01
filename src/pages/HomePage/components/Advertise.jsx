@@ -17,24 +17,24 @@ class Advertise extends PureComponent {
 			<React.Fragment>
 				<div className='box-tat'>
 					<div className='container'>
-							<Row>
-								<Col sm={24} md={8}>
-									<a href='tel:021111144'>
-										<img src={Banner_KTB_SQ}/>
-									</a>
-								</Col>
-								<Col sm={24} md={8}>
-									<a href='tel:022706400'>
-										<img src={Banner_CGD_Sq}/>
-									</a>
-								</Col>
-								
-								<Col sm={24} md={8}>
-									<a href='tel:1672'>
-										<img src={Banner_TAT_Hotline_Sq}/>
-									</a>
-								</Col>
-							</Row>
+						<Row>
+							<Col sm={24} md={8}>
+								<a href='tel:021111144'>
+									<img src={Banner_KTB_SQ}/>
+								</a>
+							</Col>
+							<Col sm={24} md={8}>
+								<a href='tel:022706400'>
+									<img src={Banner_CGD_Sq}/>
+								</a>
+							</Col>
+							
+							<Col sm={24} md={8}>
+								<a href='tel:1672'>
+									<img src={Banner_TAT_Hotline_Sq}/>
+								</a>
+							</Col>
+						</Row>
 					</div> 
 				</div>
 				<div className='box-ktc'>

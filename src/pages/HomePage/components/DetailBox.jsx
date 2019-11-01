@@ -14,21 +14,21 @@ class DetailBox extends PureComponent {
 						<Col md={20}>
 							<Row>
 								<Col span={24}>
-									<div className="head-title d-none d-sm-block">
-										มาตรการส่งเสริมการบริโภค <br/> ในประเทศ <span className="nowrap">“ชิมช้อปใช้”</span>
+									<div className='head-title d-none d-sm-block'>
+										มาตรการส่งเสริมการบริโภค <br/> ในประเทศ <span className='nowrap'>“ชิมช้อปใช้”</span>
 									</div>
-									<div className="head-title d-sm-none">
-										มาตรการส่งเสริมการบริโภคในประเทศ <span className="nowrap">“ชิมช้อปใช้”</span>
+									<div className='head-title d-sm-none'>
+										มาตรการส่งเสริมการบริโภคในประเทศ <span className='nowrap'>“ชิมช้อปใช้”</span>
 									</div>
 								</Col>
 								<Col span={24} className='mt-4'>
-								<div className="detail">
+								<div className='detail'>
 									{ htmlToReactParser.parse(this.props.detail) }
 								</div>
 								</Col>
 								<Col span={24} className='condition mt-4'>
-									<div className="title">เงื่อนไขการเข้าร่วมมาตรการ</div>
-									<div className="detail ul mt-2">
+									<div className='title'>เงื่อนไขการเข้าร่วมมาตรการ</div>
+									<div className='detail ul mt-2'>
 										{ htmlToReactParser.parse(this.props.condition) }
 									</div>
 								</Col>

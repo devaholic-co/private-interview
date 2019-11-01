@@ -14,7 +14,7 @@ class Banner extends PureComponent {
                </Col>
                <Col span={8} className='Banner__coverImage Banner__cover-img-2'>
                   <div className='d-flex h-100 justify-content-center align-items-center'>
-                     <div className='logo-box'>
+                     <div className='logoBox'>
                         <img src={logo}/>
                      </div>
                    </div>
