@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "270c5c1c9bd9f6afdbadb3ec072a95df",
+    "revision": "81d1a77a4f42ba417c3c6d9f001e71e7",
     "url": "/ywc-interview/index.html"
   },
   {
-    "revision": "3ac7aef9497d3f349adf",
+    "revision": "dcffe674bffd24ff3eb6",
     "url": "/ywc-interview/static/css/2.65d0fb34.chunk.css"
   },
   {
-    "revision": "e3b3e9685ce0d7fd7e34",
-    "url": "/ywc-interview/static/css/main.ac9d17f5.chunk.css"
+    "revision": "fee7c194103fd14c0568",
+    "url": "/ywc-interview/static/css/main.0866c565.chunk.css"
   },
   {
-    "revision": "3ac7aef9497d3f349adf",
-    "url": "/ywc-interview/static/js/2.3934afbb.chunk.js"
+    "revision": "dcffe674bffd24ff3eb6",
+    "url": "/ywc-interview/static/js/2.7d6f922a.chunk.js"
   },
   {
-    "revision": "e3b3e9685ce0d7fd7e34",
-    "url": "/ywc-interview/static/js/main.0f5621cd.chunk.js"
+    "revision": "fee7c194103fd14c0568",
+    "url": "/ywc-interview/static/js/main.369b538e.chunk.js"
   },
   {
     "revision": "f665b87399459912346a",

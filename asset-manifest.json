@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ywc-interview/static/css/main.ac9d17f5.chunk.css",
-    "main.js": "/ywc-interview/static/js/main.0f5621cd.chunk.js",
-    "main.js.map": "/ywc-interview/static/js/main.0f5621cd.chunk.js.map",
+    "main.css": "/ywc-interview/static/css/main.0866c565.chunk.css",
+    "main.js": "/ywc-interview/static/js/main.369b538e.chunk.js",
+    "main.js.map": "/ywc-interview/static/js/main.369b538e.chunk.js.map",
     "runtime-main.js": "/ywc-interview/static/js/runtime-main.1e809212.js",
     "runtime-main.js.map": "/ywc-interview/static/js/runtime-main.1e809212.js.map",
     "static/css/2.65d0fb34.chunk.css": "/ywc-interview/static/css/2.65d0fb34.chunk.css",
-    "static/js/2.3934afbb.chunk.js": "/ywc-interview/static/js/2.3934afbb.chunk.js",
-    "static/js/2.3934afbb.chunk.js.map": "/ywc-interview/static/js/2.3934afbb.chunk.js.map",
+    "static/js/2.7d6f922a.chunk.js": "/ywc-interview/static/js/2.7d6f922a.chunk.js",
+    "static/js/2.7d6f922a.chunk.js.map": "/ywc-interview/static/js/2.7d6f922a.chunk.js.map",
     "index.html": "/ywc-interview/index.html",
-    "precache-manifest.471dbd1dcffe8489d403971cfe6b61c2.js": "/ywc-interview/precache-manifest.471dbd1dcffe8489d403971cfe6b61c2.js",
+    "precache-manifest.e7367866c47505fecbedf6c0e38eee80.js": "/ywc-interview/precache-manifest.e7367866c47505fecbedf6c0e38eee80.js",
     "service-worker.js": "/ywc-interview/service-worker.js",
     "static/css/2.65d0fb34.chunk.css.map": "/ywc-interview/static/css/2.65d0fb34.chunk.css.map",
-    "static/css/main.ac9d17f5.chunk.css.map": "/ywc-interview/static/css/main.ac9d17f5.chunk.css.map",
+    "static/css/main.0866c565.chunk.css.map": "/ywc-interview/static/css/main.0866c565.chunk.css.map",
     "static/media/Banner_CGD_Sq.png": "/ywc-interview/static/media/Banner_CGD_Sq.6c42699d.png",
     "static/media/Banner_KTB_SQ.png": "/ywc-interview/static/media/Banner_KTB_SQ.ed683f12.png",
     "static/media/Banner_TAT_Hotline_Sq.png": "/ywc-interview/static/media/Banner_TAT_Hotline_Sq.1b47ec36.png",
@@ -22,14 +22,15 @@
     "static/media/MOF.png": "/ywc-interview/static/media/MOF.398d843b.png",
     "static/media/MOTS.png": "/ywc-interview/static/media/MOTS.09477969.png",
     "static/media/TAT.png": "/ywc-interview/static/media/TAT.2529bd05.png",
+    "static/media/global.scss": "/ywc-interview/static/media/Tatsanasuksa-Regular.7c965f9a.ttf",
     "static/media/HomePage.scss": "/ywc-interview/static/media/banner-right.b28170f0.png",
     "static/media/banner.png": "/ywc-interview/static/media/banner.0b9c7c9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1e809212.js",
     "static/css/2.65d0fb34.chunk.css",
-    "static/js/2.3934afbb.chunk.js",
-    "static/css/main.ac9d17f5.chunk.css",
-    "static/js/main.0f5621cd.chunk.js"
+    "static/js/2.7d6f922a.chunk.js",
+    "static/css/main.0866c565.chunk.css",
+    "static/js/main.369b538e.chunk.js"
   ]
 }
