@@ -1,34 +1,34 @@
 .Banner {
   &__coverImage {
     height: 350px;
-    @media only screen and (max-width: 768px) {
+    @media (max-width: 768px) {
       height: 242px;
     }
-    @media only screen and (max-width: 577px) {
+    @media (max-width: 577px) {
       height: 221px;
     }
   }
   &__cover-img-1 {
-    background: url('https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left.png') no-repeat;
+    background: url('../../images/banner-left.png') no-repeat;
     background-size: cover;
-    @media only screen and (max-width: 577px) {
-      background: url('https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left-s.png') no-repeat;
+    @media (max-width: 577px) {
+      background: url('../../images/banner-left-s.png') no-repeat;
       background-size: cover;
     }
   }
   &__cover-img-2 {
-    background: url('https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-center.png') no-repeat;
+    background: url('../../images/banner-center.png') no-repeat;
     background-size: cover;
-    @media only screen and (max-width: 577px) {
-      background: url('https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-center-s.png') no-repeat;
+    @media (max-width: 577px) {
+      background: url('../../images/banner-center-s.png') no-repeat;
       background-size: cover;
     }
   }
   &__cover-img-3 {
-    background: url('https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right.png') no-repeat;
+    background: url('../../images/banner-right.png') no-repeat;
     background-size: cover;
-    @media only screen and (max-width: 577px) {
-      background: url('https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right-s.png') no-repeat;
+    @media (max-width: 577px) {
+      background: url('../../images/banner-right-s.png') no-repeat;
       background-size: cover;
     }
   }
@@ -60,21 +60,21 @@
 }
 @font-face {
   font-family: "TATSanaChon";
-  src: url('../../TATSANA-CHON-REG.TTF');
-  src: url('../../TATSanaChon-Regular.eot');
-  src: url('../../TATSanaChon-Regular.eot?#iefix') format('embedded-opentype'), url('../../TATSanaChon-Regular.woff2') format('woff2'), url('../../TATSanaChon-Regular.woff') format('woff');
+  src: url('../../fonts/TATSANA-CHON-REG.TTF');
+  src: url('../../fonts/TATSanaChon-Regular.eot');
+  src: url('../../fonts/TATSanaChon-Regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/TATSanaChon-Regular.woff2') format('woff2'), url('../../fonts/TATSanaChon-Regular.woff') format('woff');
 }
 @font-face {
   font-family: "TATSanaSuksa";
-  src: url('../../Tatsanasuksa-Regular.ttf');
-  src: url('../../TAT/TATSanaSuksa-Regular.eot');
-  src: url('../../TAT/TATSanaSuksa-Regular.eot?#iefix') format('embedded-opentype'), url('../../TAT/TATSanaSuksa-Regular.woff2') format('woff2'), url('../../TAT/TATSanaSuksa-Regular.woff') format('woff');
+  src: url('../../fonts/Tatsanasuksa-Regular.ttf');
+  src: url('../../fonts/TATSanaSuksa-Regular.eot');
+  src: url('../../fonts/TATSanaSuksa-Regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/TATSanaSuksa-Regular.woff2') format('woff2'), url('../../fonts/TATSanaSuksa-Regular.woff') format('woff');
 }
 @font-face {
   font-family: "TATSanaSuksaBold";
-  src: url('../../TATSANA-CHON-BLD.TTF');
-  src: url('../../TATSanaChon-Bold.eot');
-  src: url('../../TATSanaChon-Bold.eot?#iefix') format('embedded-opentype'), url('../../TATSanaChon-Bold.woff2') format('woff2'), url('../../TATSanaChon-Bold.woff') format('woff');
+  src: url('../../fonts/TATSANA-CHON-BLD.TTF');
+  src: url('../../fonts/TATSanaChon-Bold.eot');
+  src: url('../../fonts/TATSanaChon-Bold.eot?#iefix') format('embedded-opentype'), url('../../fonts/TATSanaChon-Bold.woff2') format('woff2'), url('../../fonts/TATSanaChon-Bold.woff') format('woff');
 }
 
 .container {
@@ -83,24 +83,24 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  @media only screen and (max-width: 577px) {
+  @media (max-width: 577px) {
     padding-right: 30px;
     padding-left: 30px;
   }
-  @media only screen and (min-width: 576px) {
+  @media (min-width: 576px) {
     max-width: 540px;
   }
-  @media only screen and (min-width: 768px) {
+  @media (min-width: 768px) {
     max-width: 720px;
   }
-  @media only screen and (min-width: 992px) {
+  @media (min-width: 992px) {
     max-width: 960px;
   }
 }
 
 .box-tat {
   margin: 150px 0px;
-  @media only screen and (max-width: 577px) {
+  @media (max-width: 577px) {
     margin: 80px 0px;
     text-align: center;
   }
@@ -110,26 +110,22 @@
   text-align: center;
   margin: 26px 0px;
   font-weight: bold;
-}
-.box-register hr {
-  margin-top: -3%;
-}
-@media (max-width: 1024px) {
-  .box-register hr {
+  hr {
+    margin-top: -3%;
+    @media (max-width: 1024px) {
       margin-top: -4%;
+    }
+    @media (max-width: 769px) {
+      margin-top: -4.5%;
+    }
   }
-  }
-@media (max-width: 769px) {
-.box-register hr {
-    margin-top: -4.5%;
-}
 }
 
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
 }
 .container-fluid {
   width: 100%;
@@ -148,10 +144,10 @@ hr {
   margin: 10px 0px;
   width: 800px;
   padding: 10px;
-  @media only screen and (max-width: 769px) {
+  @media (max-width: 769px) {
     font-size: 18px;
   }
-  @media only screen and (max-width: 577px) {
+  @media (max-width: 577px) {
     font-size: 18px;
     width: 100%;
   }
@@ -161,85 +157,70 @@ hr {
   border: 1px solid transparent;
   line-height: 1.5;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.btn-register:hover {
-  background-color: #FBBC33;
-  box-shadow: none;
-}
-.btn-register:focus {
-  outline: 0;
+
+  &:hover {
+    background-color: #FBBC33;
+    box-shadow: none;
+  }
+  &:focus {
+    outline: 0;
+  }
 }
 .time {
   margin-top: -10px;
   font-size: 48px;
   color: #E6332A;
-  @media only screen and (max-width: 769px) {
+  @media (max-width: 769px) {
     font-size: 36px;
   }
-  @media only screen and (max-width: 577px) {
+  @media (max-width: 577px) {
     font-size: 30px;
   }
 }
 
 .box-detail {
   margin: 70px 0px;
-}
-.box-detail .head-title {
-  font-family: TATSanaSuksaBold;
-  font-size: 36px;
-  color: #E6332A;
-}
-@media (max-width: 769px) {
-  .box-detail .head-title {
-    font-size: 24px;
-    line-height: 1.3;
+  .head-title {
+    font-family: TATSanaSuksaBold;
+    font-size: 36px;
+    color: #E6332A;
+    @media (max-width: 769px) {
+      font-size: 24px;
+      line-height: 1.3;
+    }
+    @media (max-width: 577px) {
+      font-size: 24px;
+      line-height: 1.6;
+    }
   }
-}
-@media (max-width: 577px) {
-  .box-detail .head-title {
-    font-size: 24px;
-    line-height: 1.6;
+  .condition {
+    z-index: 100;
+    .title {
+      font-weight: bold;
+      li {
+        display: inline-block;
+      }
+    }
   }
-}
-.box-detail .condition {
-  z-index: 100;
-}
-.box-detail .condition .title {
-  font-weight: bold;
-}
-.box-detail .condition .detail li {
-  display: inline-block;
-}
-
-.box-detail .detail {
-  font-family: TATSanaSuksa;
-  font-size: 18px;
-}
-
-@media (max-width: 769px) {
-  .box-detail .detail {
-    font-size: 14px;
+  .detail {
+    font-family: TATSanaSuksa;
+    font-size: 18px;
+    @media (max-width: 769px) {
+      font-size: 14px;
+    }
+    @media (max-width: 577px) {
+      font-size: 16px;
+    }
   }
-}
-@media (max-width: 577px) {
-  .box-detail .detail {
-    font-size: 16px;
-  }
-}
-
-.box-detail .title {
-  font-family: TATSanaSuksaBold;
-  font-size: 18px;
-}
-
-@media (max-width: 769px) {
-  .box-detail .title {
-    font-size: 14px;
-  }
-}
-@media (max-width: 577px) {
-  .box-detail .title {
-    font-size: 16px;
+  .title {
+    font-family: TATSanaSuksaBold;
+    font-size: 18px;
+    @media (max-width: 769px) {
+      font-size: 14px;
+    }
+    @media (max-width: 577px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -260,11 +241,6 @@ hr {
   }
 }
 .box-ktc img:hover {
-  /*cursor: pointer;
-      box-shadow: 0 2px 14px 0 rgba(0,0,0,.1);
-      -webkit-transform: scale(1.02);
-      transform: scale(1.02);
-      transition-timing-function: ease-out;*/
   cursor: pointer;
   transform: scale(1.2);
   transition: all 0.55s ease-in-out;
@@ -323,9 +299,9 @@ body {
   height: 100%;
 }
 @media (max-width: 577px) {
-.box-tat img {
+  .box-tat img {
     width: 80%;
-}
+  }
 }
 
 .ant-row, .row {
@@ -359,3 +335,6 @@ span.nowrap {
   white-space: nowrap;
 }
 
+.ant-row:after, .ant-row:before {
+  display: grid;
+}

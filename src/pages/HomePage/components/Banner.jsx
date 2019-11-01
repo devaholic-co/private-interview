@@ -3,6 +3,8 @@ import { Row, Col } from 'antd'
 
 import '../HomePage.scss'
 
+import logo from '../../../images/banner.png'
+
 class Banner extends PureComponent {
 	render() {
 		return (
@@ -12,7 +14,9 @@ class Banner extends PureComponent {
                </Col>
                <Col span={8} className='Banner__coverImage Banner__cover-img-2'>
                   <div className='d-flex h-100 justify-content-center align-items-center'>
-                     <div class="logo-box"><img src="https://www.ชิมช้อปใช้.com/img/logo/banner.png"/></div>
+                     <div className='logo-box'>
+                        <img src={logo}/>
+                     </div>
                    </div>
                </Col>
                <Col span={8} className='Banner__coverImage Banner__cover-img-3'>
